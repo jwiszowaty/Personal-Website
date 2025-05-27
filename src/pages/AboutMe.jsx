@@ -14,7 +14,7 @@ export default function AboutMe() {
               src={ProfilePicture}
               alt="Jakub Wiszowaty"
               className="w-[292px] h-[292px] rounded-full object-cover shadow-xl border-4 border-white"
-            />
+              />
             <a
       href="https://www.linkedin.com/in/jakubwiszowaty"
       target="_blank"
@@ -24,7 +24,7 @@ export default function AboutMe() {
                 LinkedIn
               </a>
               <a
-      href="https://github.com/your-username"
+      href="https://github.com/jwiszowaty"
       target="_blank"
       rel="noopener noreferrer"
       className="inline-flex items-center gap-2 px-4 py-2 border border-gray-300 text-gray-800 bg-white rounded-md font-medium hover:bg-gray-100 transition"

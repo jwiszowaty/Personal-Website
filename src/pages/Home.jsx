@@ -1,6 +1,6 @@
 import Menu from "../components/Menu.jsx";
 import ProfilePicture from "../assets/profile.jpg";
-import { cerificates } from "../data/cerificates.js";
+import { certificates } from "../data/certificates.js";
 function Home() {
   return (
     <>
@@ -35,11 +35,14 @@ function Home() {
         <section className="max-w-5xl mx-auto">
           <h1 className="text-xl my-5">Cerificates</h1>
         <ul className="flex flex-col flex-wrap gap-2 text-gray-600 text-sm">
-                  {cerificates.map((cerificate, i) => (
-                    <li key={i} className="px-3 py-1">
-                      {cerificate}
-                    </li>
-                  ))}
+            {
+              certificates.map(({title, description, url}, index) => {
+              return (<li key={index} className="px-3 py-1">
+                <a target="_blank" class="text-blue-700 font-bold hover:text-blue-900" href={url}><p>{title}</p></a>
+                <p>{description}</p>
+              </li>)
+            })
+            }
                 </ul>
         </section>
       </main>
