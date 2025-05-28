@@ -5,13 +5,13 @@ export const certificates = [
         url: "https://www.freecodecamp.org/certification/jakubwiszowaty/responsive-web-design",
     },
     {
-        title: "13-week Software Engineer BootCamp (Northcoders)",
-        description: "",
+        title: "Software Development Bootcamp in JavaScript (Northcoders)",
+        description: "Full-time 13-week program designed to launch your career in tech. It covers both front-end and back-end development, equipping you with the skills to build real, responsive web applications using industry-standard tools and workflows.",
         url: "",
     },
     {
         title: "JavaScript Algorithms and Data Structures (FreeCodeCamp)",
-        description: "JavaScript fundamentals(variables, arrays, objects, loops, functions, the DOM)\nObject Oriented Programming (OOP), Functional Programming, algorithmic thinking, local storage, using API",
+        description: "JavaScript fundamentals (variables, arrays, objects, loops, functions, the DOM)\nObject Oriented Programming (OOP), Functional Programming, algorithmic thinking, local storage, using API",
         url: "https://www.freecodecamp.org/certification/jakubwiszowaty/javascript-algorithms-and-data-structures-v8",
     },
 ]
