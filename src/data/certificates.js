@@ -1,5 +1,10 @@
 export const certificates = [
     {
+        title: "Back End Development and APIs (FreeCodeCamp)",
+        description: " Back end apps with Node.js, web applications with the Express.js, MongoDB, Mongoose.",
+        url: "https://www.freecodecamp.org/certification/jakubwiszowaty/back-end-development-and-apis",
+    },
+    {
         title: "Responsive Web Design (FreeCodeCamp)",
         description: " HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design",
         url: "https://www.freecodecamp.org/certification/jakubwiszowaty/responsive-web-design",
